@@ -101,12 +101,12 @@
 
         <div class="sm:flex sm:w-full sm:order-4 md:w-2/3">
           <img src="./images/main-img-1.png" class="z-50 mt-8 w-full sm:w-1/2 md:ml-15" alt="girls">
-          <img src="./images/main-img-2.png" class="z-40 -mt-20 w-full 2xl:-ml-4 xl:-ml-6 sm:mt-16 sm:-ml-12 sm:w-1/2 sm:mt-8 sm:-ml-0" alt="shtang">
+          <img src="./images/main-img-2.png" class="z-40 -mt-12 w-full 2xl:-ml-4 xl:-ml-6 sm:mt-16 sm:-ml-12 sm:w-1/2 sm:mt-8 sm:-ml-0" alt="shtang">
         </div>
       </div>
 
       <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-4 mt-12">
-        <div class="pb-4 sm:block sm:text-center md:flex md:items-center  border-b-2 border-b-transparent hover:border-b-2 hover:border-b-orange-500">
+        <div class="sm:block sm:text-center md:flex md:items-center  border-b-2 border-b-transparent hover:border-b-2 hover:border-b-orange-500">
           <img class="w-18 mx-auto sm:w-10 sm:h-10 mt-2 sm:mb-2" src="./images/icon-img-1.png" alt="img">
           <p class="mt-6 sm:mt-0 text-center md:text-start text-white text-base font-medium sm:ml-0 md:ml-6">Полностью <br> укомплектованный зал</p>
         </div>
@@ -159,12 +159,12 @@
 
 <!-- main section starts -->
 
-<div class="section__price overflow-hidden">
+<div class="section__price">
   <div class="container mx-auto max-w-7xl sm:px-6 lg:px-8">
-
-      <h2 class="text-black text-3xl font-bold text-center mt-24">Абонементы</h2>
+    <h2 class="text-black text-3xl font-bold text-center mt-24">Абонементы</h2>
       <div class="flex items-center overflow-hidden">
         <table class="table-fixed mt-10">
+
           <thead>
             <tr>
               <th class="w-1/5 p-4 text-lg font-medium text-start border-b border-slate-600 hover:text-orange-500">Кол-во занятий</th>
@@ -176,7 +176,7 @@
           </thead>
 
           <tbody>
-            <tr class="pt-4 text-center overflow-hidden">
+            <tr class="pt-4 text-center">
               <td class="text-start inline-block mt-8 font-bold hover:text-orange-500">Персональный тренинг с инструктором</td>
               <td>700 руб.</td>
               <td>2600 руб. (действителе н в течении 3 недель)</td>
@@ -184,7 +184,7 @@
               <td>7200 руб. (действителен в течении 10 недель)</td>
             </tr>
 
-            <tr class="text-center overflow-hidden">
+            <tr class="text-center">
               <td class="text-start inline-block mt-8 font-bold hover:text-orange-500">Самостоятельные тренировки в тренажерном зале</td>
               <td>250 руб.</td>
               <td>—</td>
@@ -192,21 +192,22 @@
               <td>2000 руб. (действителен в течении 30 дней)</td>
             </tr>
 
-            <tr class="text-center overflow-hidden">
+            <tr class="text-center">
               <td class="text-start inline-block flex mt-8 font-bold hover:text-orange-500">Зал групповых программ</td>
               <td>300 руб.</td>
               <td>—</td>
               <td>2000 руб. (действителен в течении 30 дней</td>
               <td>2750 руб. (действителен в течении 45 дней)</td>
             </tr>
-
           </tbody>
+
         </table>
       </div>
 
       <h2 class="text-black text-3xl font-bold text-center mt-24">Абонемент по времени</h2>
       <div class="flex items-center overflow-hidden">
         <table class="table-fixed w-full mt-10">
+
           <thead>
             <tr>
               <th class="w-1/5 p-4 text-lg font-medium text-start border-b border-slate-600 hover:text-orange-500">Тип карты</th>
@@ -233,14 +234,100 @@
               <td>5500</td>
               <td>2000</td>
             </tr>
-
           </tbody>
         </table>
       </div>
 
+      <h2 class="text-black text-3xl font-bold text-center mt-24">Разовые тренировки</h2>
+      <div class="card mt-16 gap-x-2 justify-center mx-auto sm:flex">
+        <div class="text-center w-80 mx-auto mt-4" style="box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.08);">
+          <h3 class="font-bold text-base mt-8 inline-block">Самостоятельные тренировки в тренажерном зале</h3>
+          <span class="block font-normal mt-6 text-slate-600 opacity-75">8:00 – 23:00</span>
+          <img src="./images/icon-watch.png" alt="icon-watch" class="mx-auto mt-8">
+          <span class="block font-bold text-2xl mt-4"><b>250₽</b></span>
+          <span class="block font-normal text-slate-600 opacity-75 mt-4">1 тренировка</span>
+          <div class="inline-block border border-orange-500 h-12 mb-8 -skew-x-12 mt-6 hover:bg-amber-600"><a class="py-3 px-10 md:px-16 justify-center flex text-orange-500 hover:text-white" href="#">Узнать</a></div>
+        </div>
+
+        <div class="text-center w-80 mx-auto mt-4" style="box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.08);">
+          <h3 class="font-bold text-base mt-8 inline-block">Персональный тренинг <br> с инструктором</h3>
+          <span class="block font-normal text-slate-600 mt-6 opacity-75">8:00 – 23:00</span>
+          <img src="./images/icon-watch.png" alt="icon-watch" class="mx-auto mt-8">
+          <span class="block font-bold text-2xl mt-4"><b>700₽</b></span>
+          <span class="block font-normal text-slate-600 opacity-75 mt-4">1 тренировка</span>
+          <div class="inline-block border border-orange-500 h-12 mb-8 -skew-x-12 mt-6 hover:bg-amber-600"><a class="py-3 px-10 md:px-16 justify-center flex text-orange-500 hover:text-white" href="#">Узнать</a></div>
+        </div>
+
+        <div class="text-center w-80 mx-auto mt-4" style="box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.08);">
+          <h3 class="font-bold text-base mt-8 inline-block">Зал групповых <br> программ</h3>
+          <span class="block font-normal text-slate-600 mt-6 opacity-75">8:00 – 23:00</span>
+          <img src="./images/icon-watch.png" alt="icon-watch" class="mx-auto mt-8">
+          <span class="block font-bold text-2xl mt-4"><b>300₽</b></span>
+          <span class="block font-normal text-slate-600 opacity-75 mt-4">1 тренировка</span>
+          <div class="inline-block border border-orange-500 h-12 mb-8 -skew-x-12 mt-6 hover:bg-amber-600"><a class="py-3 px-10 md:px-16 justify-center flex text-orange-500 hover:text-white" href="#">Узнать</a></div>
+        </div>
+      </div>
   </div>
 </div>
+
 <!-- main section end -->
+
+<!-- aside starts -->
+
+<div class="aside" style="background: #0C1417;">
+  <div class="container mx-auto max-w-7xl sm:px-6 lg:px-8 overflow-hidden">
+    <div class="items-center overflow-hidden md:flex">
+
+      <h2 class="text-3xl font-bold text-white mr-10 text-center mt-8">Тренеры </h2>
+
+      <div class="gap-x-8 overflow-hidden sm:flex md:mx-auto">
+        <div class="overflow-hidden text-center md:text-start">
+          <img src="./images/yoga-1.jpg" alt="yoga" class="mt-20 mx-auto" style="width: 307px;">
+          <h4 class="text-white text-base font-bold mt-6">Илья Панченко</h4>
+          <p class="text-slate-600 font-normal leading-loose text-sm mt-4">Персональный тренер <br> Инструктор тренажерного зала <br> Опыт работы — 4 года</p>
+        </div>
+
+        <div class="overflow-hidden text-center md:text-start">
+          <img src="./images/yoga-2.jpg" alt="yoga" class="mt-20 mx-auto" style="width: 307px;">
+          <h4 class="text-white text-base font-bold mt-6">Екатерина Сосина-Нуньес</h4>
+          <p class="text-slate-600 font-normal leading-loose text-sm mt-4">Фитнес-тренер <br> Опыт работы — 4 года</p>
+        </div>
+
+        <div class="overflow-hidden text-center md:text-start mb-12">
+          <img src="./images/yoga-3.jpg" alt="yoga" class="mt-20 mx-auto" style="width: 307px;">
+          <h4 class="text-white text-base font-bold mt-6">Юлия Белова</h4>
+          <p class="text-slate-600 font-normal leading-loose text-sm mt-4">Фитнес-тренер <br> Опыт работы — 4 года</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="gap-x-12 mt-12 mb-20 justify-center hidden sm:block sm:flex">
+      <img src="./images/up.png" alt="up">
+      <img src="./images/down.png" alt="down">
+    </div>
+  </div>
+</div>
+
+<!-- aside end -->
+
+<!-- question starts -->
+
+<div class="question"  style="background: url(images/bg-15.jpg), url(images/bg-images-2.png)  no-repeat; background-size: cover; background-position: center; height: 525px;">
+  <div class="container mx-auto max-w-7xl sm:px-6 lg:px-8 flex justify-end items-center">
+
+    <div class="text-center my-auto inline-block mt-24 mr-20" style="width: 351px; height: 378px;">
+      <h4 class="font-bold text-white text-2xl">Остались вопросы?</h4>
+      <p class="text-white font-medium opacity-85 mt-6">Оставьте Ваш номер телефона <br> и мы <span class="text-orange-500">обязательно с Вами свяжемся</span></p>
+        <input class="mt-6 bg-transparent w-10/12 h-10 focus:outline-none border-b border-b-gray-500" type="text" name="name" id="name" class="input" placeholder="Введите имя"><br>
+        <input class="mt-4 bg-transparent w-10/12 h-10 focus:outline-none border-b border-b-gray-500" type="tel" name="phone" id="phone" class="input" placeholder="Введите телефон"><br>
+        <div class="inline-block w-52 py-3 border -skew-x-12 mt-6 hover:border-orange-500"><a class="text-white" href="#">Получить консультацию</a></div>
+        <p class="text-white opacity-50 mt-6">Нажимая на кнопку вы соглашаетесь с политикой конфиденциальности</p>
+    </div>
+
+  </div>
+</div>
+
+<!-- question end -->
 
 
 </body>
